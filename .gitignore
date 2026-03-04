@@ -1,0 +1,57 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnp.*
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+.pnp/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+out/
+coverage/
+.cache/
+/.next/
+/.nuxt/
+/.parcel-cache/
+.turbo/
+
+# Runtime data
+.env
+.env.*
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.tgz
+*.gz
+*.zip
+npm-debug.log*
+yarn-error.log*
+
+# Optional lock files (if using different package manager)
+pnpm-lock.yaml
