@@ -67,7 +67,7 @@ node index.js
 - "Summarize Q3 flame states for today" — call `summarize_flame_states` with `burner=3` and a `startTime`.
 
 **Notes**
-- This server communicates with your Industrial Events API using simple query parameters and expects the API to return JSON in the shape used by the handlers. Adjust `apiFetch` or the helper parsers if your API differs.
+- This server communicates with your Canary Events API using simple query parameters and expects the API to return JSON in the shape used by the handlers. Adjust `apiFetch` or the helper parsers if your API differs.
 - For production usage, secure your `API_TOKEN` and consider running the server as a service or under a process manager.
 
 ---
