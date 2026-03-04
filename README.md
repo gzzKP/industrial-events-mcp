@@ -1,4 +1,4 @@
-# MCP Server for Industrial Events API
+# MCP Server for Industrial Events using Canary API
 
 This repository provides a lightweight Model Context Protocol (MCP) server that exposes a small set of tools for querying an Industrial Events API. The server is implemented in Node.js and is intended to be run as an MCP server (e.g., connected to Claude Desktop or another MCP-compatible host).
 
