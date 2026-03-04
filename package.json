@@ -1,0 +1,9 @@
+{
+  "name": "industrial-events-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": { "industrial-events-mcp": "index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
