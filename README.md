@@ -1,4 +1,4 @@
-# MCP Server for Industrial Events API
+# MCP Server for Industrial Events using Canary API
 
 This repository provides a lightweight Model Context Protocol (MCP) server that exposes a small set of tools for querying an Industrial Events API. The server is implemented in Node.js and is intended to be run as an MCP server (e.g., connected to Claude Desktop or another MCP-compatible host).
 
@@ -67,7 +67,7 @@ node index.js
 - "Summarize Q3 flame states for today" — call `summarize_flame_states` with `burner=3` and a `startTime`.
 
 **Notes**
-- This server communicates with your Industrial Events API using simple query parameters and expects the API to return JSON in the shape used by the handlers. Adjust `apiFetch` or the helper parsers if your API differs.
+- This server communicates with your Canary Events API using simple query parameters and expects the API to return JSON in the shape used by the handlers. Adjust `apiFetch` or the helper parsers if your API differs.
 - For production usage, secure your `API_TOKEN` and consider running the server as a service or under a process manager.
 
 ---
