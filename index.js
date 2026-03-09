@@ -41,8 +41,8 @@ async function apiFetch(endpoint, params = {}) {
   const start = Date.now();
   let res;
   try {
+    url.searchParams.set("apiToken", API_TOKEN);
     res = await fetch(url.toString(), {
-      headers: { Authorization: `Bearer ${API_TOKEN}` },
       signal: AbortSignal.timeout(FETCH_TIMEOUT),
     });
   } catch (err) {
